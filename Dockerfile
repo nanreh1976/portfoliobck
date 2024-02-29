@@ -4,5 +4,5 @@
 
 FROM amazoncorretto:17-alpine-jdk
     
-    COPY target/portfolioapi-0.0.1-SNAPSHOT.jar portfoliobck.app
+    COPY target/portfolioapi-0.0.1-SNAPSHOT.jar portfoliobck.jar
     ENTRYPOINT ["java","-jar","portfoliobck.jar"]
